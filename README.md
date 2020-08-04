@@ -15,7 +15,7 @@ And the solution for our second problem is NAT Gateway. **NAT Gateway** is a hig
 In short, if we need to manage the MySQL server we can logging it into it through the Wordpress's Instance.
 
 And we will create a NAT gateway using which MySQL instance can access the Internet.
-## Implementaion
+## Implementation
 In our previous article, we have already seen most of the implementation. So, in this article let's focus on adding another component i.e. NAT Gateway. So the flow is something like, first we need a Nat Gateway and then need to create a Route table which contains the information necessary to forward a packet along the Nat Gateway.
 
 **_Create NAT gateway:_**
@@ -125,12 +125,15 @@ All the necessary components are being added or updated now. To see the complete
 
 **Check resources:**
 
-Nat Gatway:
+Nat Gateway:
+
 ![1](https://raw.githubusercontent.com/mohitagal98/hybrid-proj4/master/photos/nat%20gateway.JPG)
 Route tables:
+
 ![2](https://raw.githubusercontent.com/mohitagal98/hybrid-proj4/master/photos/route%20table.JPG)
 Wordpress Blog:
+
 ![3](https://raw.githubusercontent.com/mohitagal98/hybrid-proj4/master/photos/blog.JPG)
-MySQl access:
+MySQL access:
 ![4](https://raw.githubusercontent.com/mohitagal98/hybrid-proj4/master/photos/mysql%20login.JPG)
 ## Thank You !!

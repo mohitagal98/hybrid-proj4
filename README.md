@@ -123,7 +123,7 @@ All the necessary components are being added or updated now. To see the complete
 
 `terraform apply -auto-approve`
 
-Check resources:
+**Check resources:**
 
 Nat Gatway:
 ![1](https://raw.githubusercontent.com/mohitagal98/hybrid-proj4/master/photos/nat%20gateway.JPG)

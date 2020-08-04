@@ -29,7 +29,6 @@ depends_on=[
 }
 
 
-
 # Nat Gateway
 resource "aws_nat_gateway" "nat-gw" {
 depends_on=[
@@ -55,8 +54,6 @@ depends_on=[
     cidr_block = "0.0.0.0/0"
     nat_gateway_id = "${aws_nat_gateway.nat-gw.id}"
   }
-
-
   tags = {
     Name = "mysql-route"
   }
@@ -123,7 +120,9 @@ All the necessary components are being added or updated now. To see the complete
 
 ### Finally, we are left with our two magical commands:
 `terraform init`
+
 `terraform apply -auto-approve`
+
 Check resources:
 
 Nat Gatway:
